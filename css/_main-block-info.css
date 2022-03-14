@@ -1,0 +1,85 @@
+.main-block {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/bg.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.container_main-block-indent {
+  padding: 0 120px;
+}
+
+.main-block-info {
+  padding-top: 208px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-block__intro {
+  max-width: 100%;
+  width: 580px;
+}
+
+.main-block__header {
+  font-size: var(--font-size-3xl);
+}
+
+.main-block__header-text {
+  max-width: 100%;
+  width: 363px;
+  font-size: var(--font-size-xl);
+  padding-top: 38px;
+  line-height: 34px;
+  opacity: 0.7;
+}
+
+.main-block__get-job {
+  max-width: 100%;
+  width: 340px;
+}
+
+.main-block__job-text {
+  font-size: 15px;
+  line-height: 28px;
+  padding-top: 40px;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-family: var(--font-family-gilroy);
+  font-size: var(--font-size-xs);
+  font-weight: bold;
+  line-height: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  border-radius: 2px;
+  border: none;
+  position: relative;
+  transition: all .75s ease;
+}
+
+.btn:hover {
+  background-color: var(--yellow-hovered-color);
+  -webkit-box-shadow: 5px 5px 50px 5px #FFEB81; 
+  box-shadow: 5px 5px 50px 5px #FFEB81;
+}
+
+.btn_get-job {
+  padding: 29px 57px 26px 82px;
+}
+
+.btn_get-job::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 58px;
+  width: 12px;
+  height: 12px;
+  background: url('../img/download.svg');
+}
