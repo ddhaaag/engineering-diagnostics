@@ -54,7 +54,6 @@
   line-height: 15px;
   letter-spacing: 2px;
   cursor: pointer;
-  text-transform: uppercase;
   text-decoration: none;
   background-color: var(--yellow-color);
   color: var(--black-color);

@@ -1,10 +1,10 @@
-@import url('./_fonts.css');
-@import url('./_variables.css');
-@import url('./_header.css');
-@import url('./_main-block-info.css');
-@import url('./_main-block-benefits.css');
-@import url('./_benefits.css');
-@import url('./_services.css');
+@import url('_fonts.css');
+@import url('_variables.css');
+@import url('_header.css');
+@import url('_main-block-info.css');
+@import url('_main-block-benefits.css');
+@import url('_benefits.css');
+@import url('_services.css');
 
 body {
   font-family: var(--font-family-proxima);
